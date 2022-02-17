@@ -5,7 +5,6 @@ using namespace std;
 struct TIJD {
     int uren;
     int minuten;
-
 } ;
 
 TIJD t1;
