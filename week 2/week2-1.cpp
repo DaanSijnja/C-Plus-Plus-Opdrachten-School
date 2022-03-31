@@ -1,3 +1,4 @@
+// Naam: Daan Sijnja Studentnummer: 20177747
 #include<iostream>
 using namespace std;
 

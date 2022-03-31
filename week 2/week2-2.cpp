@@ -1,3 +1,4 @@
+// Naam: Daan Sijnja Studentnummer: 20177747
 #include <iostream>
 
 using namespace std;
@@ -6,8 +7,10 @@ class Tijd {
     public:
         void leesIn();
         void drukAf();
+
         void verhoog(int minuten);
         void verhoog(Tijd tijd);
+        
         void verschil(Tijd tijd);
 
         Tijd();
