@@ -4,12 +4,9 @@ using namespace std;
 
 class Vorm{
     public:
-        virtual int oppervlakte() const;
+        virtual int oppervlakte() const = 0; 
 };
 
-int Vorm::oppervlakte() const{
-    return 0;
-}
 
 class Rechthoek: public Vorm {
     protected:
@@ -18,7 +15,6 @@ class Rechthoek: public Vorm {
         int grootste(int a, int b) const;
         void normalizeer();
         
-
     public:
         Rechthoek(int _lengte, int _breedte);
         void drukaf() const;
